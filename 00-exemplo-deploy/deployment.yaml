@@ -25,8 +25,10 @@ metadata:
 spec:
   selector:
     app: web
+    # Informar na label do Service o nome da aplicação que ele expõe
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
+      # A porta exposta pelo meun Deployment
   type: LoadBalancer

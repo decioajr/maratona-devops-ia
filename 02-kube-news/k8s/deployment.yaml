@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
       - name: kube-news-app
-        image: decioajr/devops4devs-news:v1
+        image: decioajr/kube-news-maratona:v1
         ports:
         - containerPort: 8080
         env:
